@@ -1,9 +1,6 @@
-edad = int(input("Ingrese su edad: "))
-if edad < 12:
-    print("Niño/a")
-elif edad >= 12 and edad < 18:
-    print("Adolecente")
-elif edad >= 18 and edad < 30:
-    print("Adulto/a joven")
-elif edad >= 30:
-    print("Adulto")
+contraseña = input("Ingrese una contraseña: ")
+largo = len(contraseña)
+if largo >= 8 and largo <= 14:
+    print("Ha ingresado una contraseña correcta")
+else:
+    print("Por favor, ingrese una contraseña de entre 8 y 14 caracteres")
