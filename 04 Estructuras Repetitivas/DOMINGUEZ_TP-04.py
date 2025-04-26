@@ -115,3 +115,15 @@ for i in range (limite):
     suma+=numero
 
 print("La media es", (suma/limite))
+
+
+#10) Escribe un programa que invierta el orden de los dígitos de un número ingresado por el usuario. Ejemplo: si el usuario ingresa 547, el programa debe mostrar 745.
+
+# Pedimos al usuario que ingrese un número
+numero = input("Ingrese un número: ")
+
+# Invertimos el número usando
+numero_invertido = numero[::-1]
+
+# Mostramos el resultado
+print("El número invertido es:", numero_invertido)
