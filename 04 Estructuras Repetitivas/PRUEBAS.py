@@ -1,4 +1,9 @@
-#6) Desarrolla un programa que imprima en pantalla todos los números pares comprendidos entre 0 y 100, en orden decreciente.
+#9) Elabora un programa que permita al usuario ingresar 100 números enteros y luego calcule la media de esos valores. (Nota: puedes probar el programa con una cantidad menor, pero debe poder procesar 100 números cambiando solo un valor).
 
-for i in range (100, 0, -2):
-    print (i)
+suma = 0 #inicializamos la suma
+limite=5
+for i in range (limite):
+    numero = int(input("Ingrese un numero: "))
+    suma+=numero
+
+print("La media es", (suma/limite))
