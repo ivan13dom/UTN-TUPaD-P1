@@ -1,8 +1,14 @@
-#8) Crear una lista vacía llamada "dobles" y agregar el doble de 5, 10 y 15 usando append directamente. Imprimir la lista resultante por pantalla.
-
-#Creamos la lista vacia
-dobles = []
-dobles.append(2*5)
-dobles.append(2*10)
-dobles.append(2*15)
-print(dobles)
+#10) Elaborar una lista anidada llamada “lista_anidada” que contenga los siguientes elementos:
+lista_anidada = []
+#● Posición lista_anidada[0]: 15
+lista_anidada.append(15)
+#● Posición lista_anidada[1]: True
+lista_anidada.append(True)
+#● Posición lista_anidada[2][0]: 25.5
+#● Posición lista_anidada[2][1]: 57.9
+#● Posición lista_anidada[2][2]: 30.6
+lista_anidada.append([25.5,57.9,30.6])
+#● Posición lista_anidada[3]: False
+lista_anidada.append(False)
+#Imprimir la lista resultante por pantalla.
+print(lista_anidada)
