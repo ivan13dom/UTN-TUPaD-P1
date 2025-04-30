@@ -1,6 +1,8 @@
-#5) Analizar el siguiente programa y explicar con tus palabras qué es lo que realiza.
+#8) Crear una lista vacía llamada "dobles" y agregar el doble de 5, 10 y 15 usando append directamente. Imprimir la lista resultante por pantalla.
 
-numeros = [8,15,3,22,7]         #En primer lugar se crea la lista con los elementos 8, 15, 3, 22 y 7
-numeros.remove(max(numeros))    #En esta linea se borra el valor maximo de la lista. En este caso 22
-print(numeros)                  #Se imprime la lista como quedo despues de la modificacion
-
+#Creamos la lista vacia
+dobles = []
+dobles.append(2*5)
+dobles.append(2*10)
+dobles.append(2*15)
+print(dobles)
