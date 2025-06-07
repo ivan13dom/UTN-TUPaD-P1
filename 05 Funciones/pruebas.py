@@ -1,16 +1,13 @@
-# 4)Crear dos funciones: calcular_area_circulo(radio) que reciba el radio como parámetro y devuelva el área del círculo. calcular_perimetro_circulo(radio) que reciba el radio como parámetro y devuelva el perímetro del círculo. Solicitar el radio al usuario y llamar ambas funciones para mostrar los resultados.
+# 10) Crear una función llamada calcular_promedio(a, b, c) que reciba tres números como parámetros y devuelva el promedio de ellos. Solicitar los números al usuario y mostrar el resultado usando esta función.
 
-#Primero importamos la libreria math para obtener las constantes matematicas, en este caso utilizaremos Pi
-import math
 
 #Funciones
-def calcular_area_circulo(radio):
-    return math.pi *(radio**2)
-
-def calcular_perimetro_circulo(radio):
-    return (2* math.pi* radio)
+def calcular_promedio(a, b, c):
+   return (a+b+c)/3
 
 #Programa principal
-radio = float(input("Ingrese un radio: "))
+num1 = float(input("Ingrese el primer numero: "))
+num2 = float(input("Ingrese el segundo numero: "))
+num3 = float(input("Ingrese el ultimo numero: "))
 
-print(f"El area es {calcular_area_circulo(radio)} y su perimetro es {calcular_perimetro_circulo(radio)}")
+print(f"El promedio de sus numeros es {calcular_promedio(num1,num2,num3)}")
