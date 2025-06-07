@@ -1,13 +1,16 @@
-#3) Crear una función llamada informacion_personal(nombre, apellido, edad, residencia) que reciba cuatro parámetros e imprima: “Soy [nombre] [apellido], tengo [edad] años y vivo en [residencia]”. Pedir los datos al usuario y llamar a esta función con los valores ingresados
+# 4)Crear dos funciones: calcular_area_circulo(radio) que reciba el radio como parámetro y devuelva el área del círculo. calcular_perimetro_circulo(radio) que reciba el radio como parámetro y devuelva el perímetro del círculo. Solicitar el radio al usuario y llamar ambas funciones para mostrar los resultados.
+
+#Primero importamos la libreria math para obtener las constantes matematicas, en este caso utilizaremos Pi
+import math
 
 #Funciones
-def informacion_personal(nombre, apellido, edad, residencia):
-     print(f"Soy {nombre} {apellido}, tengo {edad} y vivo en {residencia}")
+def calcular_area_circulo(radio):
+    return math.pi *(radio**2)
+
+def calcular_perimetro_circulo(radio):
+    return (2* math.pi* radio)
 
 #Programa principal
-nombre = input("Ingrese un nombre: ")
-apellido = input("Ingrese un apellido: ")   
-edad= int(input("Ingrese una edad: "))
-residencia = input("Ingrese una residencia: ")
+radio = float(input("Ingrese un radio: "))
 
-informacion_personal(nombre, apellido, edad, residencia)
+print(f"El area es {calcular_area_circulo(radio)} y su perimetro es {calcular_perimetro_circulo(radio)}")
