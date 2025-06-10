@@ -42,11 +42,12 @@ También observamos que, a pesar de no utilizar programación orientada a objeto
 
 ## 📁 Archivos del proyecto
 
-- `arboles_con_numeros_comentado.py` – Script principal con el desarrollo del árbol.
-- `Presentacion_Trabajo_Integrador_Numeros.pptx` – Presentación visual del proyecto.
-- `TP_Integrador_Arboles_Listas_Fontana_Dominguez.docx` – Documento teórico con desarrollo completo.
-- `Imagen_Arbol.png` – Representación visual del árbol binario.
+- `Arboles_binarios-FONTANA_DOMINGUEZ.py` – Script principal con el desarrollo del árbol.
+- `TP_Integrador_Arboles_Listas_Fontana_Dominguez.PDF` – Documento teórico con desarrollo completo.
+- `paint_arbol` – Representación visual del árbol binario.
 
 ---
 
 Este proyecto fue una excelente oportunidad para reforzar los conceptos básicos de estructuras de datos y lógica de programación.
+
+Link al video explicativo: 
