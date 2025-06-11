@@ -50,4 +50,4 @@ También observamos que, a pesar de no utilizar programación orientada a objeto
 
 Este proyecto fue una excelente oportunidad para reforzar los conceptos básicos de estructuras de datos y lógica de programación.
 
-Link al video explicativo: 
+Link al video explicativo: https://youtu.be/pg6n-3pXyfQ
